@@ -1,1 +1,2 @@
 #androidApp-calculator
+This calculator does simple arithmatic functions.  It handles some exceptions such as if you only input a decimal point, it should be set as 0.0.  It does this by initializing the 2 values, that are used for the calculation, as 0.0 and then resets them when equals or clear is hit.  It also ensures that everytime when operations are called it resest the other values, so if you input 5-+/8 it would see it as 5/8 because it was the last operation called.  Then I also added another EditText at the top to show what was input for the calculations.
